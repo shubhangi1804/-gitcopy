@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>FashionStore</title>
+    <title>All Products-FashionStore</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-    <div class="header">
 
         <div class="container">
             <div class="navbar">
@@ -33,57 +31,31 @@
                 <img src="https://img.icons8.com/ios/2x/shopping-bag.png" width="30px" height="30px">
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
-
-            <div class="row">
-                <div class="col-2">
-                    <h1><em>Quality Clothes for <br> Quality People!</em></h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Autem eveniet ipsa cumque, illo consectetur placeat?</p>
-
-                    <a href="" class="btn">Explore Now &#8594;</a>
-                </div>
-
-                <div class="col-2">
-                    <img src="Images/index.png">
-                </div>
-            </div>
-
         </div>
-    </div>
 
-    <!-- featured categories-->
-
-    <div class="categories">
-        <h2 class="title">Categories</h2>
         <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="Images/Category1.webp">
-                </div>
-                <div class="col-3">
-                    <img src="Images/Category2.webp">
-                </div>
-                <div class="col-3">
-                    <img src="Images/Category3.webp">
-                </div>
+            <div class="row row-2">
+                <h2>All Products</h2>
+                <select>
+                    <option>Default Shorting</option>
+                    <option>Short by price</option>
+                    <option>Short by popularity</option>
+                    <option>Short by rating</option>
+                    <option>Short by sale</option>
+                </select>
             </div>
-        </div>    
-    </div>
 
-    <!----featured products---->
-
-    <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="Images/Product1.webp">
-                <h4>Red Pocket Jerry T-shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="Images/Product1.webp">
+                    <h4>Red Pocket Jerry T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
                 <p>399 <i class="fa fa-inr"></i></p>
             </div>
 
@@ -125,13 +97,6 @@
                 </div>
                 <p>500 <i class="fa fa-inr"></i></p>
             </div>
-        </div>
-
-
-        <!----Latest Products---->
-
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
             <div class="col-4">
                 <img src="Images/Product5.webp">
                 <h4>Floral Smocked Bralette Crop Top</h4>
@@ -236,95 +201,13 @@
                 <p>699 <i class="fa fa-inr"></i></p>
             </div>
         </div>
-    </div>
 
-    <!-----Offer----->
-
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="Images/Exclusive.png" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on FashionStore</p>
-                    <h1>Party Wear</h1>
-                    <small>Little black dress Clothing Cocktail dress Skirt, Women with, women Accessories, holidays, atmosphere</small> <br>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!----------testimonial-------->
-
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                  <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, qui nisi. Iusto quasi porro voluptates exercitationem laborum magnam ipsa</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="Images/Rachel.jpg">
-                    <h3>Rachel Green</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, qui nisi. Iusto quasi porro voluptates exercitationem laborum magnam ipsa</p>
-                      <div class="rating">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                      </div>
-                      <img src="Images/Monica.jpg">
-                      <h3>Monica Geller</h3>
-                  </div>
-                  <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, qui nisi. Iusto quasi porro voluptates exercitationem laborum magnam ipsa</p>
-                      <div class="rating">
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-o"></i>
-                      </div>
-                      <img src="Images/Phoebe.jpg">
-                      <h3>Phoebe Buffay</h3>
-                  </div>
-            </div>
-        </div>
-    </div>
-
-    <!----------Brands---------->
-
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="Images/Levis.png">
-                </div>
-                <div class="col-5">
-                    <img src="Images/Only.png">
-                </div>
-                <div class="col-5">
-                    <img src="Images/godrej.png">
-                </div>
-                <div class="col-5">
-                    <img src="Images/Philips.png">
-                </div>
-                <div class="col-5">
-                    <img src="Images/coca.png">
-                </div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
     </div>
 
